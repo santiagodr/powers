@@ -6,7 +6,6 @@
 #'
 #' @name powers
 #' @author Vincenzo Coia
-#' @note This package isn't actually meant to be serious. It's just for
-#' teaching purposes.
+#' @note This package is a practice for STAT547 based on Vicenzo Coia's powers package. It is useful, but not intented to be a serious package
 #' @docType package
 NULL
