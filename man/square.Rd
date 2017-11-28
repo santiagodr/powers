@@ -2,41 +2,27 @@
 % Please edit documentation in R/square.R
 \name{square}
 \alias{square}
-\alias{cube}
-\alias{reciprocal}
-\title{Apply a useful power}
+\title{This function square a vector
+That's it!}
 \usage{
-square(x, plot_it = FALSE)
-
-cube(x, plot_it = FALSE)
-
-reciprocal(x, plot_it = FALSE)
+square(x, na.rm = FALSE)
 }
 \arguments{
-\item{x}{The vector to be squared or cubed.}
+\item{x}{The vector to be squared}
 
-\item{plot_it}{Display a plot of \code{x} vs the output? Use logical.
-\code{FALSE} by default.}
+\item{na.rm}{indicates whether to remove NA's, default is false}
 }
 \value{
-A vector that is the:
-\itemize{
-     \item square (for \code{square})
-     \item cube (for \code{cube})
-     \item reciprocal/inverse (for \code{reciprocal})
-}
- of \code{x}.
+A vector that is the squared of \code{x}
 }
 \description{
-That's it -- these functions just square, cube, or take the
-reciprocal/inverse of a vector.
+This function square a vector
+That's it!
 }
 \details{
-If you really want to see more, check out the internal \code{\link{pow}}
-function that these functions depend on.
+This function relies on the internal function pow
 }
 \examples{
-cube(tenvec)
-square(-5)
-reciprocal(2)
+square(5)
+square(1:10)
 }

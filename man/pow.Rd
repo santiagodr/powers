@@ -4,20 +4,18 @@
 \alias{pow}
 \title{Generic Power Function}
 \usage{
-pow(x, a, plot_it)
+pow(x, a, na.rm = FALSE)
 }
 \arguments{
 \item{x}{Vector to raise to some power.}
 
 \item{a}{Power to raise \code{x} by.}
 
-\item{plot_it}{Display a plot of \code{x} vs the output? Use logical.}
+\item{na.rm}{ask if NA's should be removed for the computation, default is FALSE}
 }
 \value{
 The vector \code{x}, raised to the power of \code{a}.
 }
 \description{
-This function raises a vector to any power. I'm making it internal,
-by not \code{export}ing, because I don't want users to use it.
-Why not? Because I said so!
+This function is internal and is used by the other functions
 }

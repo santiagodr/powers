@@ -11,8 +11,7 @@ Use this package to call functions that apply common powers
 to your vectors.
 }
 \note{
-This package isn't actually meant to be serious. It's just for
-teaching purposes.
+This package is a practice for STAT547 based on Vicenzo Coia's powers package. It is useful, but not intented to be a serious package
 }
 \author{
 Vincenzo Coia
