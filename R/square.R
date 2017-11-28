@@ -1,37 +1,18 @@
-#' Apply a useful power
+#' This function square a vector
+#' That's it!
 #'
-#' That's it -- these functions just square, cube, or take the
-#' reciprocal/inverse of a vector.
+#' @param x The vector to be squared
 #'
-#' @param x The vector to be squared or cubed.
-#' @param plot_it Display a plot of \code{x} vs the output? Use logical.
-#' \code{FALSE} by default.
+#' @param na.rm indicates whether to remove NA's, default is false
 #'
-#' @return
-#' A vector that is the:
-#' \itemize{
-#'      \item square (for \code{square})
-#'      \item cube (for \code{cube})
-#'      \item reciprocal/inverse (for \code{reciprocal})
-#' }
-#'  of \code{x}.
+#' @return  A vector that is the squared of \code{x}
 #'
-#' @details
-#' If you really want to see more, check out the internal \code{\link{pow}}
-#' function that these functions depend on.
+#' @details This function relies on the internal function pow
+#'
 #' @examples
-#' cube(tenvec)
-#' square(-5)
-#' reciprocal(2)
-#' @rdname square
+#' square(5)
+#' square(1:10)
 #' @export
-square <- function(x, plot_it=FALSE) pow(x, a=2, plot_it=plot_it)
+#'
+square <- function(x, na.rm=FALSE) pow(x, a=2, na.rm)
 
-#' @rdname square
-#' @export
-cube <- function(x, plot_it=FALSE) pow(x, a=3, plot_it=plot_it)
-
-
-#' @rdname square
-#' @export
-reciprocal <- function(x, plot_it=FALSE) pow(x, a=-1, plot_it=plot_it)
