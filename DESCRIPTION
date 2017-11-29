@@ -7,7 +7,7 @@ Authors@R: person("Santiago", "David", email="sdavid@zoology.ubc.ca",
 Description: This package was created as part of a homework for STAT547-UBC
     It is an extension of the package powers created by Vincenzo Coia
     It is not intended to be a serious package, but still it is useful to calculate the 
-    square and cube power of a vector, and to perform Box-Cox transformations
+    square and cube power of a vector, and to perform Box-Cox transformations.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
