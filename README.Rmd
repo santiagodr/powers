@@ -27,7 +27,7 @@ library(powers)
 ```
 
 
-You can explore more examples in the [vignette](file:///Users/SantiagoD/Desktop/powers/inst/doc/using_powers.html), but here is a quick example for the three functions on one vector of values
+You can explore more examples in the [vignette](https://htmlpreview.github.io/?https://github.com/santiagodr/powers/blob/master/inst/doc/using_powers.html), but here is a quick example for the three functions on one vector of values
 
 ```{r example}
 example <- c(1:5)
