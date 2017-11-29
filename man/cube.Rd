@@ -2,8 +2,7 @@
 % Please edit documentation in R/cube.R
 \name{cube}
 \alias{cube}
-\title{This function cube a vector
-That's it!}
+\title{Cube function}
 \usage{
 cube(x, na.rm = FALSE)
 }
@@ -13,11 +12,10 @@ cube(x, na.rm = FALSE)
 \item{na.rm}{indicates whether to remove NA's, default is false}
 }
 \value{
-A vector that is the cube of \code{x}
+A vector of the same lenght as `x` containing the cube of \code{x}
 }
 \description{
 This function cube a vector
-That's it!
 }
 \details{
 This function relies on the internal function pow

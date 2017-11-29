@@ -16,7 +16,7 @@
 #'
 #' @examples
 #' boxcox(1:10, 2)
-#' boxcox(0.5, )
+#' boxcox(0.5, 1)
 #'
 #' @export
 #'

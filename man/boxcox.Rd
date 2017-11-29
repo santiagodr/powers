@@ -9,21 +9,23 @@ boxcox(x, lambda, na.rm = FALSE)
 \arguments{
 \item{x}{Vector to be transformed.}
 
-\item{lambda}{the scalar exponent for transform (1 is linear, 0 is log)}
+\item{lambda}{the scalar exponent for transformation (1 is linear, 0 is log), no default}
 
 \item{na.rm}{ask if NA's should be removed for the computation, default is FALSE}
 }
 \value{
-A vector that is the Box-Cox transformation of \code{y}
+A vector of the same length as `x` that is the Box-Cox transformation of \code{x}
 }
 \description{
 This function performs a Box-Cox transformation to a vector
 }
 \details{
-this function is useful to transform data usually to adjust them to a normal distribution
+this function is useful to transform data using the Box-Cox transformation in order to adjust them to a normal distribution
+Ths user should explore a range of values for lambda to find the optimal value that approximates the data to a normal distribution
+The function only takes positive values for x
 }
 \examples{
-boxcox(1,2,10,40)
-boxcox(-10,3,5)
+boxcox(1:10, 2)
+boxcox(0.5, 1)
 
 }

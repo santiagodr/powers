@@ -22,7 +22,6 @@ Want squares, cubes, or reciprocals? Easy.
 ```{r}
 square(1:10)
 cube(1:10)
-reciprocal(1:10)
 ```
 
 `apply`-family friendly, too!
@@ -35,10 +34,3 @@ lapply(my_list, function(x) x^2)
 lapply(my_list, square)
 ```
 
-It even comes with the ability to display its output in plot form!
-
-```{r}
-reciprocal(1:10, plot_it=TRUE)
-```
-
-Wow!!!

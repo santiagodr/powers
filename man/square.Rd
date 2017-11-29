@@ -2,8 +2,7 @@
 % Please edit documentation in R/square.R
 \name{square}
 \alias{square}
-\title{This function square a vector
-That's it!}
+\title{Square function}
 \usage{
 square(x, na.rm = FALSE)
 }
@@ -13,11 +12,10 @@ square(x, na.rm = FALSE)
 \item{na.rm}{indicates whether to remove NA's, default is false}
 }
 \value{
-A vector that is the squared of \code{x}
+A vector of the same lenght as `x` containing the squared of \code{x}
 }
 \description{
 This function square a vector
-That's it!
 }
 \details{
 This function relies on the internal function pow
