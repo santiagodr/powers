@@ -5,7 +5,7 @@
 #'
 #' @param na.rm indicates whether to remove NA's, default is false
 #'
-#' @return  A vector that is the squared of \code{x}
+#' @return  A vector of the same lenght as `x` containing the squared of \code{x}
 #'
 #' @details This function relies on the internal function pow
 #'
