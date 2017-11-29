@@ -4,15 +4,17 @@
 \name{powers}
 \alias{powers}
 \alias{powers-package}
-\title{Convenient Computation of Powers}
+\title{Computation of Powers and Box-Cox transformations}
 \description{
-Are you tired of using the power operator, \code{^} or \code{**} in R?
-Use this package to call functions that apply common powers
-to your vectors.
+this package calculate the square and cube power of a vector,
+and perform Box-Cox transformations.
+}
+\details{
+There are three functions in the package `square()`, `cube()`, and boxcox()
 }
 \note{
 This package is a practice for STAT547 based on Vicenzo Coia's powers package. It is useful, but not intented to be a serious package
 }
 \author{
-Vincenzo Coia
+Santiago David
 }

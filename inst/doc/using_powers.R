@@ -1,18 +1,24 @@
 ## ------------------------------------------------------------------------
 library(powers)
 
-## ------------------------------------------------------------------------
-square(1:10)
-cube(1:10)
-reciprocal(1:10)
+#Lets create a vector
+vector1 <- c(1:10)
+
+# and now apply our function to square each element on this vector
+square(vector1)
+
+# we can also power each element to the cube
+cube(vector1)
 
 ## ------------------------------------------------------------------------
-my_list <- list(1:10, 0.5, -0.7)
-## So base-R-boring!
-lapply(my_list, function(x) x^2)
-## Use powers instead!
-lapply(my_list, square)
+vector2 <- c(-1, 0, 1, NA, 3, NA, 5)
+square(vector2)
+square(vector2, na.rm = TRUE)
+cube(vector2, na.rm = TRUE)
 
 ## ------------------------------------------------------------------------
-reciprocal(1:10, plot_it=TRUE)
+# we can use our previous vector1, we have to provide a lambda parameter
+boxcox(vector1, 1)
+boxcox(vector1, 2)
+boxcox(vector1, 0)
 

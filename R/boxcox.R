@@ -11,7 +11,7 @@
 #' @return A vector of the same length as `x` that is the Box-Cox transformation of \code{x}
 #'
 #' @details this function is useful to transform data using the Box-Cox transformation in order to adjust them to a normal distribution
-#' Ths user should explore a range of values for lambda to find the optimal value that approximates the data to a normal distribution
+#' The user should explore a range of values for lambda to find the optimal value that approximates the data to a normal distribution
 #' The function only takes positive values for x
 #'
 #' @examples
